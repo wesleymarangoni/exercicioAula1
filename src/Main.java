@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-
+//criar um menu pro cara sair quando quiser
 public class Main {
     public static void main(String[] args) {
         double saldo = 1500;
@@ -306,4 +305,3 @@ public class Main {
     }
 
 }
-
