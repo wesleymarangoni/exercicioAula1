@@ -48,7 +48,7 @@ public class Main {
                     numeroConvertido = ("X");
                     break;
                 default:
-                    numeroConvertido = "Nuvero Invalido";
+                    numeroConvertido = "Numero Invalido";
             }
 
         return (numeroConvertido);
