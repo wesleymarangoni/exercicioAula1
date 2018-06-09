@@ -230,6 +230,9 @@ public class Main {
 
     public static double menorValor(double valor1,double valor2 ,double valor3, double valor4){
         double menor = valor1;
+        if valor2 < valor1 {
+            menor = 2
+        }
         return ;
     }
 
