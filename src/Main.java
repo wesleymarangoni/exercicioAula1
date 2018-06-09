@@ -67,22 +67,38 @@ public class Main {
 
                     switch (escolhaSubCategoria) {
                         case 1:
-                            saldo = saldo - valorCategoria1Sub1;
+                            if (saldo < valorCategoria1Sub1) {
+                                System.out.println("Saldo insuficiente");
+                            } else
+                                saldo = saldo - valorCategoria1Sub1;
+
                             atualizaSaldo(saldo);
                             break;
                         case 2:
+                            if (saldo < valorCategoria1Sub2) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria1Sub2;
                             atualizaSaldo(saldo);
                             break;
                         case 3:
+                            if (saldo < valorCategoria1Sub3) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria1Sub3;
                             atualizaSaldo(saldo);
                             break;
                         case 4:
+                            if (saldo < valorCategoria1Sub4) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria1Sub4;
                             atualizaSaldo(saldo);
                             break;
                         case 5:
+                            if (saldo < valorCategoria1Sub5) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria1Sub5;
                             atualizaSaldo(saldo);
                             break;
@@ -98,22 +114,37 @@ public class Main {
                     escolhaSubCategoria = entrada.nextInt();
                     switch (escolhaSubCategoria) {
                         case 1:
+                            if (saldo < valorCategoria2Sub1) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria2Sub1;
                             atualizaSaldo(saldo);
                             break;
                         case 2:
+                            if (saldo < valorCategoria2Sub2) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria2Sub2;
                             atualizaSaldo(saldo);
                             break;
                         case 3:
+                            if (saldo < valorCategoria2Sub3) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria2Sub3;
                             atualizaSaldo(saldo);
                             break;
                         case 4:
+                            if (saldo < valorCategoria2Sub4) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria2Sub4;
                             atualizaSaldo(saldo);
                             break;
                         case 5:
+                            if (saldo < valorCategoria2Sub5) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria2Sub5;
                             atualizaSaldo(saldo);
                             break;
@@ -122,6 +153,7 @@ public class Main {
                     }
                     break;
                 case 3:
+
                     System.out.println("[1] Sub 1 Preço :R$ " + valorCategoria3Sub1);
                     System.out.println("[2] Sub 2 Preço :R$ " + valorCategoria3Sub2);
                     System.out.println("[3] Sub 3 Preço :R$ " + valorCategoria3Sub3);
@@ -131,22 +163,37 @@ public class Main {
                     escolhaSubCategoria = entrada.nextInt();
                     switch (escolhaSubCategoria) {
                         case 1:
+                            if (saldo < valorCategoria3Sub1) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria3Sub1;
                             atualizaSaldo(saldo);
                             break;
                         case 2:
+                            if (saldo < valorCategoria3Sub2) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria3Sub2;
                             atualizaSaldo(saldo);
                             break;
                         case 3:
+                            if (saldo < valorCategoria3Sub3) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria3Sub3;
                             atualizaSaldo(saldo);
                             break;
                         case 4:
+                            if (saldo < valorCategoria3Sub4) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria3Sub4;
                             atualizaSaldo(saldo);
                             break;
                         case 5:
+                            if (saldo < valorCategoria3Sub5) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria3Sub5;
                             atualizaSaldo(saldo);
                         default:
@@ -163,22 +210,37 @@ public class Main {
                     escolhaSubCategoria = entrada.nextInt();
                     switch (escolhaSubCategoria) {
                         case 1:
+                            if (saldo < valorCategoria4Sub1) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria4Sub1;
                             atualizaSaldo(saldo);
                             break;
                         case 2:
+                            if (saldo < valorCategoria4Sub2) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria4Sub2;
                             atualizaSaldo(saldo);
                             break;
                         case 3:
+                            if (saldo < valorCategoria4Sub3) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria4Sub3;
                             atualizaSaldo(saldo);
                             break;
                         case 4:
+                            if (saldo < valorCategoria4Sub4) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria4Sub4;
                             atualizaSaldo(saldo);
                             break;
                         case 5:
+                            if (saldo < valorCategoria4Sub5) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria4Sub5;
                             atualizaSaldo(saldo);
                         default:
@@ -195,22 +257,37 @@ public class Main {
                     escolhaSubCategoria = entrada.nextInt();
                     switch (escolhaSubCategoria) {
                         case 1:
+                            if (saldo < valorCategoria5Sub1) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria5Sub1;
                             atualizaSaldo(saldo);
                             break;
                         case 2:
+                            if (saldo < valorCategoria5Sub2) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria5Sub2;
                             atualizaSaldo(saldo);
                             break;
                         case 3:
+                            if (saldo < valorCategoria5Sub3) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria5Sub3;
                             atualizaSaldo(saldo);
                             break;
                         case 4:
+                            if (saldo < valorCategoria5Sub4) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria5Sub4;
                             atualizaSaldo(saldo);
                             break;
                         case 5:
+                            if (saldo < valorCategoria5Sub5) {
+                                System.out.println("Saldo insuficiente");
+                            } else
                             saldo = saldo - valorCategoria5Sub5;
                             atualizaSaldo(saldo);
                             break;
@@ -226,14 +303,6 @@ public class Main {
     }
     public static void atualizaSaldo(double saldo){
         System.out.println("Seu Saldo Atual é de: " + saldo);
-    }
-
-    public static double menorValor(double valor1,double valor2 ,double valor3, double valor4){
-        double menor = valor1;
-        if valor2 < valor1 {
-            menor = 2
-        }
-        return ;
     }
 
 }
